@@ -1,5 +1,7 @@
 #coding: UTF-8
-a = "abc def abc\n ghi\njkl\nmn\n"
-print a
+file = open('sample1.txt')
+#txt = file.read()
+a= 'asd\ndfg\nghj\n'
+print a.split("\n")
+#print txt.split("\n")
 print len(a.split("\n"))
-print "a"
